@@ -1,0 +1,34 @@
+# User projects (keep directory structure)
+projects/*
+!projects/.gitkeep
+
+# Cached downloads & archives
+downloaded/*
+!downloaded/.gitkeep
+
+# Dynamically installed runtime engines
+php_server/*
+!php_server/.gitkeep
+web_server/*
+!web_server/.gitkeep
+database_server/*
+!database_server/.gitkeep
+node_server/*
+!node_server/.gitkeep
+python_server/*
+!python_server/.gitkeep
+
+# Logs and temporary execution files
+*.log
+logs/
+*.tmp
+_tmp*
+
+# Operating System files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE & Editors
+.vscode/
+.idea/
